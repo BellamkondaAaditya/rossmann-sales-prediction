@@ -163,7 +163,7 @@ class FeatureEngineer:
         
         self.features_created.extend(date_features)
         self.logger.info(f"Created {len(date_features)} date features")
-        print(f"✅ Created {len(date_features)} date features")
+        print(f"Created {len(date_features)} date features")
         
         return df
     
@@ -197,7 +197,7 @@ class FeatureEngineer:
         comp_features = ['CompetitionOpen', 'HasCompetition', 'CompDistanceLog']
         self.features_created.extend(comp_features)
         self.logger.info(f"Created {len(comp_features)} competition features")
-        print(f"✅ Created {len(comp_features)} competition features")
+        print(f"Created {len(comp_features)} competition features")
         
         return df
     
@@ -245,7 +245,7 @@ class FeatureEngineer:
         promo_features = ['Promo2Open', 'IsPromo2Month', 'PromoActive', 'PromoIntensity']
         self.features_created.extend(promo_features)
         self.logger.info(f"Created {len(promo_features)} promotion features")
-        print(f"✅ Created {len(promo_features)} promotion features")
+        print(f"Created {len(promo_features)} promotion features")
         
         return df
     
@@ -282,7 +282,7 @@ class FeatureEngineer:
         
         self.features_created.extend(lag_features)
         self.logger.info(f"Created {len(lag_features)} lag features")
-        print(f"✅ Created {len(lag_features)} lag features")
+        print(f"Created {len(lag_features)} lag features")
         
         return df
     
@@ -333,7 +333,7 @@ class FeatureEngineer:
         
         self.features_created.extend(rolling_features)
         self.logger.info(f"Created {len(rolling_features)} rolling features")
-        print(f"✅ Created {len(rolling_features)} rolling features")
+        print(f"Created {len(rolling_features)} rolling features")
         
         return df
     
@@ -383,7 +383,7 @@ class FeatureEngineer:
         
         self.features_created.extend(store_features)
         self.logger.info(f"Created {len(store_features)} store features")
-        print(f"✅ Created {len(store_features)} store features")
+        print(f"Created {len(store_features)} store features")
         
         return df
     
